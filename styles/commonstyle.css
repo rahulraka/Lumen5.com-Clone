@@ -1,0 +1,101 @@
+#outer{
+        
+    height: 700px;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin:auto;
+    gap:100px
+
+}
+#part1{
+    background-color:rgb(75, 75, 206);     
+}
+#part1 img{
+    width: 150px;
+    padding: 20px;
+}
+#part1>h1{
+    
+    color: white;
+    font-size:45px;
+    text-align: center;
+
+}
+#part1>h2{
+
+    font-size:35px;
+    color: white;
+    text-align: center;
+}
+#part1>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     margin:auto; 
+}
+#part1>div>img{
+    width: 100px;
+    margin:auto;
+}
+
+#part2>h1{
+
+    font-size:37px;
+    margin-bottom: 50px;
+
+}
+#part2 input{
+    width:70%;
+    height:30px;
+    border: none;
+    border-bottom: 2px solid grey;    
+}
+
+
+.button{
+   border-radius: 30px;
+   margin-bottom:15px;
+   width:70%;
+   padding: 15px;
+   background-color: white;
+   color: blue;
+   font-size:15px;
+   
+   
+}
+.font1{
+    font-size:15px;   
+}
+
+.font{
+    font-size:15px;
+    
+margin-left: 250px;
+
+}
+
+#part2>div{
+    margin-bottom:40px
+}
+*{
+    font-family : "Poppins",sans-serif; 
+}
+div>ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+a{
+    color:blue;
+}
+#submit{
+    border-radius: 30px;
+   margin-bottom:15px;
+   width:70%;
+   padding-top: 18px;
+   padding-bottom: 35px;
+   background-color: rgb(85, 85, 224);
+   color: white;
+   font-size:17px;
+   border: blue;
+}
+

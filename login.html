@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen5</title>
+    <link rel="stylesheet" href="./Styles/commonstyle.css" />    
+</head>
+<body>
+    <!-- parent -->
+<div id="outer">
+    <!-- child -->
+    <div id="part1">
+
+        <a href="index.html">
+<img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/logo-white_266x156.png" alt="lumen5 logo">
+</a>
+
+<h1>Supercharge your content strategy</h1>
+
+<h2>Join 800,000+ brands creating <br> videos with Lumen5 </h2>
+<div>
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-seimens-white.png" alt="logo-seimens">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sf-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merck-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-white.png" alt="logo">
+</div>
+
+    </div>
+
+<!-- child2 -->
+    <div id="part2">
+        <h1>Welcome back!</h1>
+        <div>
+       <form id="form">
+
+        <p class="font1">WORK EMAIL</p>
+        <input type="text" id="email">
+
+        
+        <p class="font1">PASSWORD</p>
+
+        <input type="text" id="password">
+        
+        </div>
+
+        <input type="submit" value ="Login" id="submit"/>
+    </form>
+    
+         <div>------------------------------------------------------ OR  ------------------------------------------------------------</div>
+        
+         <button class="button"> <a href="https://www.facebook.com/">Login with Facebook</a> </button>
+        
+         <button class="button"> Log in via SSO</button>
+        
+        
+        <div>
+           <p class="font1">Need a Lumen5 account?<a href="signup.html"> Create an account</a></p>
+        </div>
+
+        <div>
+            <p class="font">@ 2021 Lumen5</p>
+        </div>
+    
+</div>
+</body>
+</html>
+<script src="./Script/login.js"></script>
+<!-- <script>
+    var reGuser=JSON.parse(localStorage.getItem("signup"));
+
+// console.log(reGuser);
+
+document.querySelector("#form").addEventListener("submit",detailsubmit);
+
+// use new way
+var form=document.querySelector("#form");
+// find value to use form.id.value
+
+
+function detailsubmit(){
+event.preventDefault();
+
+var email=form.email.value;
+var pass=form.password.value;
+// console.log(email,pass);
+
+var flag=false;
+for(var i=0;i<reGuser.length;i++){
+    // console.log(reGuser[i])
+if(reGuser[i].email==email && reGuser[i].pass==pass){
+    // console.log(reGuser[i])
+flag=true;
+}
+}
+if(flag==true){
+console.log("login Success");
+alert("Login Success");
+window.location.href="/afterlogin/addvideos.html"
+}
+
+else{
+    console.log("login fail");
+    alert("Login Fail");
+}
+// document.querySelector("input[type='submit']").addEventListener("click",function(){
+
+// //
+// });
+}; -->
+            
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen5</title>
+    <link rel="stylesheet" href="./Styles/commonstyle.css" />    
+</head>
+<body>
+
+    <!-- parent -->
+<div id="outer">
+    
+    <!-- child -->
+    <div id="part1">
+
+        <a href="index.html">
+<img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/logo-white_266x156.png" alt="lumen5 logo">
+</a>
+
+<h1>Supercharge your content strategy</h1>
+
+<h2>Join 800,000+ brands creating <br> videos with Lumen5 </h2>
+<div>
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-seimens-white.png" alt="logo-seimens">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sf-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merck-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-white.png" alt="logo">
+<img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-white.png" alt="logo">
+</div>
+
+    </div>
+
+<!-- child2 -->
+    <div id="part2">
+        <h1>Get started with a free account</h1>
+        <div>
+       <form id="form">
+        <p class="font1">FULL NAME</p>
+
+        <input type="text" id="name">
+
+        <p class="font1">WORK EMAIL</p>
+        
+        <input type="text" id="email">
+        
+        <p class="font1">PASSWORD</p>
+
+        <input type="text" id="password">
+        </div>
+
+        <div>
+        <ul>
+            <li>One lowercase character</li>
+            <li> One uppercase character</li>
+  
+        </ul>
+        <ul>
+            <li>8 characters minimum</li>
+            <li>Contains a number or symbol</li>
+        </ul>
+        </div>
+
+         <input type="submit" value ="Create account" id="submit"/>
+         </form>
+         
+         <div>------------------------------------------------------ OR  ------------------------------------------------------------</div>
+        
+         <button class="button"> <a href="https://www.facebook.com/">Sign up with Facebook</a></button>
+        
+       
+        
+        
+        <div>
+           <p class="font1">Already have a Lumen5 account?<a href="login.html"> Log in</a></p>
+        </div>
+
+        <div>
+            <p>By clicking “Create account” I agree to Lumen5’s Terms of Use and  Privacy Policy
+                </p>
+        </div>
+    
+</div>
+</body>
+</html>
+
+<script>
+document.querySelector("#form").addEventListener("submit",myForm);
+
+var signUparr= JSON.parse(localStorage.getItem("signup")) || [];
+
+function myForm(event){
+   event.preventDefault();
+    var signupobj={
+    user: document.querySelector("#name").value,
+    email :document.querySelector("#email").value,
+    pass:document.querySelector("#password").value,
+    };
+
+    signUparr.push(signupobj);
+
+     console.log(signUparr);
+
+
+localStorage.setItem("signup",JSON.stringify(signUparr));
+   document.querySelector("#name").value=""
+    document.querySelector("#email").value=""
+    document.querySelector("#password").value=""
+};
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
