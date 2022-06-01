@@ -3,6 +3,15 @@ Lumen5 is a video creation platform designed for brands and businesses to produc
 
 This is a working clone for Lumen5.com, Lumen5.com is a Digital website that lets the user who can be an Individual or an Institution to create and edit their Videos without downloading any standalone apps. Users can just go to the website and edit their video content as per their requirements.
 
+### Tech Stack
+
+* #### HTML
+
+* #### CSS
+
+* #### JavaScript
+
+
 # Snippets
 ![image](https://user-images.githubusercontent.com/65751330/170831027-1c683771-5fa3-4f52-a4c0-789d113dceff.png)
 <p align="center">Homepage</p>
